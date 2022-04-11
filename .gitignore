@@ -1,6 +1,11 @@
 .DS_Store
 .dart_tool/
-
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
 .packages
 .pub/
 

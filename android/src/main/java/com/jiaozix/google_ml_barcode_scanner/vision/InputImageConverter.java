@@ -1,4 +1,4 @@
-package com.example.google_ml_barcode_scanner.vision;
+package com.jiaozix.google_ml_barcode_scanner.vision;
 
 import android.content.Context;
 import android.net.Uri;

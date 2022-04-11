@@ -1,12 +1,13 @@
-package com.example.google_ml_barcode_scanner;
+package com.jiaozix.google_ml_barcode_scanner;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
+import com.jiaozix.google_ml_barcode_scanner.vision.BarcodeDetector;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,15 +15,13 @@ import java.util.Map;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 
-import com.example.google_ml_barcode_scanner.vision.BarcodeDetector;
-
 public class MlBarcodeMethodCallHandler implements MethodChannel.MethodCallHandler {
 
     private final Map<String, ApiDetectorInterface> handlers;
 
     public MlBarcodeMethodCallHandler(Context context) {
         List<ApiDetectorInterface> detectors = new ArrayList<ApiDetectorInterface>(
-                Arrays.asList(
+                Collections.singletonList(
                         new BarcodeDetector(context)
                 ));
 

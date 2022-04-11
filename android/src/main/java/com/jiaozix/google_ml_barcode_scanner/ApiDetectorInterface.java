@@ -1,4 +1,4 @@
-package com.example.google_ml_barcode_scanner;
+package com.jiaozix.google_ml_barcode_scanner;
 
 import androidx.annotation.NonNull;
 

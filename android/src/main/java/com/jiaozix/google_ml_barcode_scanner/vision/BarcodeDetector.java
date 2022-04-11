@@ -1,4 +1,4 @@
-package com.example.google_ml_barcode_scanner.vision;
+package com.jiaozix.google_ml_barcode_scanner.vision;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -12,7 +12,7 @@ import com.google.mlkit.vision.barcode.BarcodeScanner;
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions;
 import com.google.mlkit.vision.barcode.BarcodeScanning;
 import com.google.mlkit.vision.common.InputImage;
-import com.example.google_ml_barcode_scanner.ApiDetectorInterface;
+import com.jiaozix.google_ml_barcode_scanner.ApiDetectorInterface;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -57,11 +57,11 @@ public class BarcodeDetector implements ApiDetectorInterface {
     }
 
     private void handleDetection(MethodCall call, final MethodChannel.Result result) {
-        Map<String, Object> imageData = (Map<String, Object>) call.argument("imageData");
+        Map<String, Object> imageData = call.argument("imageData");
         InputImage inputImage = InputImageConverter.getInputImageFromData(imageData, context, result);
         if (inputImage == null) return;
 
-        List<Integer> formatList = (List<Integer>) call.argument("formats");
+        List<Integer> formatList = call.argument("formats");
         if (formatList == null)  {
             result.error("BarcodeDetectorError", "Invalid barcode formats", null);
             return;
