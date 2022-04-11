@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f0b0af-31bd-467d-94fc-c85336ded4e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/google_ml_barcode_scanner/ApiDetectorInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/google_ml_barcode_scanner/GoogleMlBarcodeScannerPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/google_ml_barcode_scanner/MlBarcodeMethodCallHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/google_ml_barcode_scanner/vision/BarcodeDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/google_ml_barcode_scanner/vision/InputImageConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_ml_barcode_scanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/google_ml_barcode_scanner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="f8f0b0af-31bd-467d-94fc-c85336ded4e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649666425070</updated>
     </task>
+    <task id="LOCAL-00001" summary="升级mlkit 版本，修改package name">
+      <created>1649666978827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666978828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -64,5 +58,9 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="升级mlkit 版本，修改package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级mlkit 版本，修改package name" />
   </component>
 </project>
